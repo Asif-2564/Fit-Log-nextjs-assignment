@@ -24,7 +24,11 @@ const AllFitCard = ({ data }: { data: Exercise }) => {
                         </span>
                     ))}
                 </div>
-                <h2 className="card-title font-2xl">Card Title</h2>
+                <h2 className="card-title font-8xl text-bold">
+                    {
+                        data.name
+                    }
+                </h2>
                 <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
                 <div className="card-actions jusify-end">
                     <button className="btn btn-primary">Buy Now</button>
